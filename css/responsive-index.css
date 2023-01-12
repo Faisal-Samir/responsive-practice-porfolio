@@ -41,7 +41,7 @@
         text-align: center;
     }
     .banner-container{
-        padding: 0px;
+        padding: 10px;
         height: 100%;
     }
     .banner-title {
@@ -50,7 +50,7 @@
     }
 
 }
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     .header{
         background-size: cover;
         background-position: center center;
@@ -59,6 +59,30 @@
     }
     .banner-container{
         padding: 30px 30px 0px 30px;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header{
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    .banner-container{
+        padding: 30px 30px 0px 30px;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1600px) {
+    .header{
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    .banner-container{
+        padding: 80px 150px;
         height: 100%;
     }
 }
