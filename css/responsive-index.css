@@ -1,0 +1,68 @@
+/* Banner design */
+.header {
+    height: 600px;
+    border: 2px solid green;
+    background-image: url(../images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner-container {
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* border: 2px solid rgb(15, 0, 128); */
+    /* height: 100%; */
+    padding: 20px 550px;
+    margin: 60px 30px;
+}
+
+.banner-title {
+    font-size: 3em;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1em;
+    font-weight: 500;
+}
+.primary-btn{
+     width: 170px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: rgb(195, 63, 63) ;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px; 
+}
+@media screen and (max-width: 576px) {
+    .header{
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    .banner-container{
+        padding: 0px;
+        height: 100%;
+    }
+    .banner-title {
+        font-size: 3em;
+        font-weight: 700;
+    }
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header{
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+    }
+    .banner-container{
+        padding: 30px 30px 0px 30px;
+        height: 100%;
+    }
+}
